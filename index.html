@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<title>Block</title>
+<meta charset="utf-8">
+<link rel="stylesheet" type="text/css" href="block.css">
+<link rel="icon" type="image/x-icon" href="favicon.ico">
+<style type="text/css">
+	body { 
+  background-color: #B5A789;
+  font-family:      Georgia, "Times New Roman", Times, serif;
+  font-size:        small;
+  margin:           0px;
+  padding: 			0px;
+  height: 100%;
+
+}
+
+header{
+	background-color: #162816;
+	margin: 10px 10px 0px 10px;
+	border:5px solid #5d430b;
+	height:95px;
+	color: 			#FFD7A0;
+	padding-left: 50px;
+	padding-top: 25px;
+	}
+nav{
+	background-color: #efe352;
+	border-radius: 25px 25px;
+	/*padding: 5px 0px;*/
+	margin: 0px 10px;
+	max-width: 500px;
+	margin: 0 auto;
+	text-align: center;
+	
+
+}
+
+ul{
+	margin: 5px 0px;
+}
+
+li{
+	display: inline;
+	padding-right:15px;
+	margin-top: 15px;
+}
+
+.test{
+	background-color: #b9706b;
+	height: 150px;
+	width: 50%;
+	margin: 0 auto;
+	position: relative;
+	border-radius: 25px 25px;
+}
+.test > div{
+	color: #f9f30e;
+	background-color: ##6f0a47;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+div#tableContainer{
+	display: table;
+	border-spacing: 10px;
+	/*margin: 5px 10px;*/
+}
+div#tableRow{
+	display: table-row;
+}
+section#drink, section#main, section#blog{
+	display: table-cell;
+	background-color: #709a6c;
+	/*width: 200px;*/
+	height: 200px;
+	/*text-align: center;*/
+	border-radius: 10px 10px;
+	vertical-align: top;
+	padding: 10px;
+}
+
+footer{
+	background-color: #726786;
+	height:38px;
+	margin: 0px 10px;
+	text-align: center;
+	border-radius: 10px 10px;
+
+}
+img{
+	float: right;
+}
+a:link {
+  color:            #b76666;
+  text-decoration:  none;
+  border-bottom:    thin dotted #b76666;
+}
+a:visited {
+  color:            #675c47;
+  text-decoration:  none;
+  border-bottom:    thin dotted #675c47;
+}
+nav ul li a:link, nav ul li a:visited{
+	border-bottom: none;
+	font-weight: bold;
+	text-transform: uppercase;
+
+
+}
+</style>
+</head>
+<body>
+	<header>Попробуем начать!!!</header>
+	<nav>
+		<ul>
+			<li><a href="#">Хороший</a></li>
+			<li><a href="#">Плохой</a></li>
+			<li><a href="#">Злой</a></li>
+			<li><a href="#">Хитрый</a></li>
+			<li><a href="#">Богатый</a></li>
+		</ul>
+	</nav>
+	<section>
+		<div class="test">
+			<div>Блок для выравнивания по центруMy first day of the trip! I can't believe I finally got everything packed and ready to go.
+			</div>
+		</div>
+	</section>
+	<div id="tableContainer">
+		<div id="tableRow">
+			<section id="drink"><img src="bee.jpg"> Lorem Ipsum - это текст- "рыба", используемый в книгопечатании и дизайне. Lorem Ipsum является фактически стандартной "рыбой" аж с XVI века, когда неизвестный печатник взял шрифтовую гранки и составил на ней подборку образцов шрифтов. "Рыба" не только успешно пережила пять веков, но и перешагнул в электронный верстуванни, оставаясь по сути неизменной. Она популяризировалась в шестидесятых годах прошлого столетия благодаря изданию образцов шрифтов Letraset, содержащих отрывки из Lorem Ipsum, и второй - недавно благодаря программам компьютерного верстування вроде Aldus Pagemaker, которые использовали различные версии Lorem Ipsum.</section>
+			<section id="main"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-fK3wskuVBqFwhzRUjtoKdNDxFyWBPCAmyxSW4I8D9DhmqcuU"> Lorem Ipsum - это текст- "рыба", используемый в книгопечатании и дизайне. Lorem Ipsum является фактически стандартной "рыбой" аж с XVI века, когда неизвестный печатник взял шрифтовую гранки и составил на ней подборку образцов шрифтов. "Рыба" не только успешно пережила пять веков, но и перешагнул в электронный верстуванни, оставаясь по сути неизменной. Она популяризировалась в шестидесятых годах прошлого столетия благодаря изданию образцов шрифтов Letraset, содержащих отрывки из Lorem Ipsum, и второй - недавно благодаря программам компьютерного верстування вроде Aldus Pagemaker, которые использовали различные версии Lorem Ipsum.</section>
+			<section id="blog">Lorem Ipsum - это текст- "рыба", используемый в книгопечатании и дизайне. Lorem Ipsum является фактически стандартной "рыбой" аж с XVI века, когда неизвестный печатник взял шрифтовую гранки и составил на ней подборку образцов шрифтов. "Рыба" не только успешно пережила пять веков, но и перешагнул в электронный верстуванни, оставаясь по сути неизменной. Она популяризировалась в шестидесятых годах прошлого столетия благодаря изданию образцов шрифтов Letraset, содержащих отрывки из Lorem Ipsum, и второй - недавно благодаря программам компьютерного верстування вроде Aldus Pagemaker, которые использовали различные версии Lorem Ipsum.</section>
+			<aside></aside>
+		</div>
+	</div>
+	<footer>Компания Рога и Копыта желает всем удачного дня!!!
+	</footer>
+
+</body>
+</html>
